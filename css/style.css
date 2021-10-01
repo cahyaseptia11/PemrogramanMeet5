@@ -1,0 +1,62 @@
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color:bisque;
+}
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: aliceblue;
+}
+.header{
+    padding: 10px;    
+}
+.header .judul{
+    font-size: 20px;  
+    font-weight: bold;  
+    padding-top: -20px;
+}
+.header ul li{
+    display: inline-block;
+    margin-top: -15px;   
+    margin-right: 10px;     
+}
+.header a{
+    text-decoration: none;
+    color:cadetblue;
+    padding: 5px;
+}
+.header a:hover{
+    background-color: violet;
+    color: white;
+}
+.hero{
+    height: 250px;
+    background-image: url(/flower.jpg);
+    background-position: 0 -60px;
+    background-position-x: center;
+    border-top: 5px solid lightcoral;
+    border-bottom: 5px solid lightcoral;
+}
+.content{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.content h5{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: -20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.content p{
+    padding-top: -500px;
+    font-size: smaller;
+}
+.content a{
+    text-decoration: none;
+}
+.footer{
+    text-align: center;
+    background-color:lightcoral;
+    font-family:monospace;
+}
